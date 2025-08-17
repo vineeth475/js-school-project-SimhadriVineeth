@@ -1,0 +1,19 @@
+{
+  "name": "timeline-filter-feature",
+  "version": "1.0.0",
+  "description": "A filter feature for the WWII timeline, built in TypeScript.",
+  "main": "dist_filter/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig_filter.json",
+    "watch": "tsc -p tsconfig_filter.json --watch"
+  },
+  "keywords": [
+    "typescript",
+    "filter"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
